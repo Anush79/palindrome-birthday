@@ -1,57 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Dancing Script', cursive;
-    font-size: x-large;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Dancing Script", cursive;
+  font-size: x-large;
 }
-body{
-    background: url("back.jpg");
-   background-size: cover;
+body {
+  background: url("back.jpg");
+  background-size: cover;
 }
-.container{
-    margin: auto;
-    margin-top:5% ;
-    width: 50%;
-    height: 70%;
-    padding: 20px;
-    text-align: center;
-    background-color: rgba(166, 193, 216, 0.374);
-    border: 20px solid rgba(113, 90, 90, 0.181);
-    border-right-color: rgba(198, 208, 217, 0.497);
-    border-left-color: rgba(169, 194, 220, 0.7);
-}
-
-#PrevDate, #NextDate{
-margin: auto;
-margin-top: 20px;
+.container {
+  margin: auto;
+  margin-top: 5%;
+  width: 50%;
+  height: 70%;
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(166, 193, 216, 0.374);
+  border: 20px solid rgba(113, 90, 90, 0.181);
+  border-right-color: rgba(198, 208, 217, 0.497);
+  border-left-color: rgba(169, 194, 220, 0.7);
 }
 
-h1{
-    margin: 30px;
-    font-size: 40px;
-    font-weight: 700;
+#PrevDate,
+#NextDate {
+  margin: auto;
+  margin-top: 20px;
 }
-input{
-    height: 50px;
-    background-color: rgb(183, 183, 20);
-    border-radius: 10px;
-    padding: 20px;
+
+h1 {
+  margin: 30px;
+  font-size: 40px;
+  font-weight: 700;
 }
-button{
-    padding: 10px;
-    background-color: #b5132b;
-    margin: 20px;
-    font-weight: 700;
-    border-radius: 10px;
+input {
+  height: 50px;
+  background-color: rgb(183, 183, 20);
+  border-radius: 10px;
+  padding: 20px;
 }
-button:hover{
-    transform: scale(0.9);
-    transition: 0.3s;
+button {
+  padding: 10px;
+  background-color: #b5132b;
+  margin: 20px;
+  font-weight: 700;
+  border-radius: 10px;
 }
-.result{
-    font-size: 25px;
-    margin: 20px;
+button:hover {
+  transform: scale(0.9);
+  transition: 0.3s;
+}
+.result {
+  font-size: 25px;
+  margin: 20px;
 }
