@@ -55,3 +55,9 @@ button:hover {
   font-size: 25px;
   margin: 20px;
 }
+.closebtn{
+background-color: #b5132b;
+padding:0px 18px;
+border-radius: 50%;
+font-size: 40px;
+}
